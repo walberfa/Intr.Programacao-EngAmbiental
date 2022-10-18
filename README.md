@@ -16,4 +16,8 @@ Temas das aulas ministradas para a turma:
 - [ ] Manipulação de strings
 - [ ] Manipulação de arquivos
 
-### Aqui serão adicionados alguns exercícios pedidos para a turma:
+### Aqui estão disponibilizados os seguintes exercícios pedidos para a turma:
+
+- soma.py
+- verificacao-idade.py
+- calculo-media-ifce.py
