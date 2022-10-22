@@ -21,3 +21,4 @@ Temas das aulas ministradas para a turma:
 - soma.py
 - verificacao-idade.py
 - calculo-media-ifce.py
+- triangulos.py
