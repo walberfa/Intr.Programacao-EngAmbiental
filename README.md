@@ -12,9 +12,7 @@ Temas das aulas ministradas para a turma:
 - [x] Tipos de variáveis
 - [x] Tipos de operadores
 - [x] Condicionais: if/else
-- [ ] Laços de repetição
-- [ ] Manipulação de strings
-- [ ] Manipulação de arquivos
+- [x] Laços de repetição
 
 ### Aqui estão disponibilizados os seguintes exercícios pedidos para a turma:
 
