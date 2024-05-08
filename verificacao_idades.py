@@ -9,7 +9,6 @@ if idade1 >= 18 and idade2 >= 18:
     print("Os dois são maiores de idade.")
 else:
     print("Pelo menos um dos dois não é maior de idade.")
-  
 # Lógica com o operador 'or'
 if idade1 >= 18 or idade2 >= 18:
     print("Pelo menos um dos dois é maior de idade.")

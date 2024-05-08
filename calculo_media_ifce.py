@@ -1,4 +1,5 @@
-"""Cálculo da média e print com o status de aprovação, de acordo com o sistema de média ponderada do IFCE."""
+"""Cálculo da média e print com o status de aprovação,
+de acordo com o sistema de média ponderada do IFCE."""
 
 n1 = int(input("Insira a nota da N1:"))
 n2 = int(input("Insira a nota da N2:"))
