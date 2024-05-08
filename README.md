@@ -17,6 +17,6 @@ Temas das aulas ministradas para a turma:
 ### Aqui estão disponibilizados os seguintes exercícios pedidos para a turma:
 
 - soma.py
-- verificacao-idade.py
-- calculo-media-ifce.py
+- verificacao_idade.py
+- calculo_media_ifce.py
 - triangulos.py

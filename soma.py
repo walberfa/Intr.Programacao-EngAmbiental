@@ -1,4 +1,4 @@
-# Código simples de uma soma entre dois números inteiros inseridos pelo usuário
+"""Código simples de uma soma entre dois números inteiros inseridos pelo usuário."""
 
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))
