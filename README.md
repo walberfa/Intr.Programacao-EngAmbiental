@@ -3,7 +3,7 @@ Disciplina ofertada no IFCE Campus Maracanaú por Walber Florêncio.
 
 ## Engenharia Ambiental e Sanitária 2022.2 🌱
 
-<img height="70em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+<img height="70em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 
 Temas das aulas ministradas para a turma:
 
