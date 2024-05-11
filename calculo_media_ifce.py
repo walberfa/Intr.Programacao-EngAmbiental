@@ -1,15 +1,16 @@
-"""Cálculo da média e print com o status de aprovação,
-de acordo com o sistema de média ponderada do IFCE."""
+def media_ifce(n1: float, n2: float):
+    """Cálculo da média de acordo com o sistema de média ponderada do IFCE.
 
-n1 = int(input("Insira a nota da N1:"))
-n2 = int(input("Insira a nota da N2:"))
+    Return: status do aluno baseado na média."""
+    media = (n1 * 2 + n2 * 3) / 5
+    print("Sua média é", media)
 
-media = (n1*2 + n2*3) / 5
-print("Sua média é", media)
+    if media >= 7:
+        status = "aprovado"
+    elif 3 <= media < 7:
+        status = "em avaliação final"
+    else:
+        status = "reprovado"
 
-if media >= 7:
-    print("O aluno está aprovado!")
-elif 3 <= media < 7:
-    print("O aluno deverá fazer a avaliação final.")
-else:
-    print("O aluno está reprovado!")
+    print(f"O aluno está {status}")
+    return status

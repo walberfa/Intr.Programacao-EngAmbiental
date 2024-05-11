@@ -1,8 +1,5 @@
-"""Código simples de uma soma entre dois números inteiros inseridos pelo usuário."""
-
-
 def soma(n1, n2):
-    """Realiza a soma.
+    """Recebe dois valores e realiza a soma dos dois.
 
     Return: Resultado da soma."""
     resultado = n1 + n2
