@@ -1,5 +1,5 @@
 import unittest
-from calculo_media_ifce import media_ifce
+from src.calculo_media_ifce import media_ifce
 
 
 class TestCalculoMedia(unittest.TestCase):
