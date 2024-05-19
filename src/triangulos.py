@@ -1,7 +1,5 @@
-"""Código usado para classificar um triangulo de acordo com os angulos inseridos pelo usuário."""
-
-
 def verifica_se_valido(a, b, c):
+    """Verifica se o triângulo é válido."""
     soma = a + b + c
     if soma != 180:
         print("Os valores são inválidos para um triangulo")
@@ -14,6 +12,7 @@ def verifica_se_valido(a, b, c):
 
 
 def define_tipos(angulo_a, angulo_b, angulo_c):
+    """Verifica o tipo de triângulo baseado nos ângulos."""
     if angulo_a == 90 or angulo_b == 90 or angulo_c == 90:
         resultado = "retangulo"
     elif angulo_a > 90 or angulo_b > 90 or angulo_c > 90:
