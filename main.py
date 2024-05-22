@@ -1,11 +1,10 @@
 from src.soma import soma
 from src.calculo_media_ifce import media_ifce
 from src.triangulos import verifica_se_valido, define_tipos
-from src.verificacao_idades import verificacao_idade
 
 
 def constroi_menu():
-    print("MENU:\n1-soma\n2-calcula média ifce\n3-verifica triangulo\n4-verifica idade\n")
+    print("MENU:\n1-soma\n2-calcula média ifce\n3-verifica triangulo\n")
 
 
 def main():
@@ -25,10 +24,8 @@ def main():
         validez = verifica_se_valido(angulo_a, angulo_b, angulo_c)
         if validez:
             define_tipos(angulo_a, angulo_b, angulo_c)
-    elif menu == "4":
-        idade1 = int(input("Digite a primeira idade: "))
-        idade2 = int(input("Digite a segunda idade: "))
-        verificacao_idade(idade1, idade2)
+    else:
+        print("Opção inválida!")
 
 
 if __name__ == "__main__":
