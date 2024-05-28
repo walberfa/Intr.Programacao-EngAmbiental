@@ -4,6 +4,7 @@ from src.calculo_media_ifce import media_ifce
 
 class TestCalculoMedia(unittest.TestCase):
     """Unit tests para validar a função media_ifce."""
+
     def test_aluno_aprovado(self):
         """Valida o cenário aluno aprovado."""
         self.assertEqual(media_ifce(7, 8), "aprovado")

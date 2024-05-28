@@ -8,9 +8,18 @@ repos:
       - id: check-docstring-first
       - id: check-yaml
       - id: check-json
+      - id: name-tests-test
       - id: fix-encoding-pragma
         args: [ '--remove' ]
       - id: no-commit-to-branch
         args: [ --branch, staging ]
       - id: mixed-line-ending
         auto-correct: true
+-   repo: https://github.com/hhatto/autopep8
+    rev: v2.1.1
+    hooks:
+    -   id: autopep8
+-   repo: https://github.com/PyCQA/flake8
+    rev: 7.0.0
+    hooks:
+    -   id: flake8

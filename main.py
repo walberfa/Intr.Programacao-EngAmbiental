@@ -4,7 +4,7 @@ from src.triangulos import verifica_se_valido, define_tipos
 
 
 def constroi_menu():
-    print("MENU:\n1-soma\n2-calcula média ifce\n3-verifica triangulo\n")
+    print("\nMENU:\n1-soma\n2-calcula média ifce\n3-verifica triangulo\n")
 
 
 def main():
@@ -29,5 +29,6 @@ def main():
 
 
 if __name__ == "__main__":
-    constroi_menu()
-    main()
+    while 1:
+        constroi_menu()
+        main()

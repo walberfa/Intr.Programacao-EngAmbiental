@@ -4,6 +4,7 @@ from src.soma import soma
 
 class TestSoma(unittest.TestCase):
     """Unit tests para validar a função soma."""
+
     def test_soma(self):
         """Verifica se 2 + 3 é igual a 5."""
         self.assertEqual(soma(2, 3), 5)
